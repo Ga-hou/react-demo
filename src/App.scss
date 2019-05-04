@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-flow: column;
+
+  &-header {
+    height: 50px;
+    line-height: 50px;
+    margin: 0 50px;
+    display: flex;
+    a {
+      display: block;
+      padding: 0 20px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .selected {
+      color: royalblue;
+      border-bottom: 2px solid royalblue;
+    }
+  }
+}
